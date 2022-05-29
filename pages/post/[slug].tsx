@@ -98,7 +98,7 @@ function Post({ post }: PropsData) {
             <h3 className="text-sm text-yellow-500">Enjoyed this article?</h3>
             <h4 className="text-3xl font-bold">Leave a comment below</h4>
 
-                <input type="hidden" name="_id" value={post._id} {...register("_id")} />
+                <input type="hidden" value={post._id} {...register("_id")} />
 
                 <label htmlFor="" className="block mb-5">
                     <span className="text-gray-700">Name</span>
